@@ -1,0 +1,174 @@
+/***  UNIVERSIAL STYLES ***/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  display: inline-block;
+}
+
+/*** NAV BAR STYLES ***/
+
+.logo {
+  margin-top: 10px;
+  font-size: 18px;
+
+}
+header {
+  overflow: hidden;
+  background-color: #06D6A0;
+  color: white;
+}
+
+.nav-item {
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+/*** BODY STYLES ***/
+
+.hero {
+  display: inline-block;
+  background-color: #26547C;
+  color: white;
+  text-align: right;
+}
+
+.call-to-action {
+  background-color: #FFD166;
+  padding: 20px;
+
+}
+
+.h_home {
+  font-size: 23px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p_home {
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+.products {
+  background-color: #F2F2F2;
+
+}
+
+.about {
+  position: border-box;
+  background-color: #26547C;
+  color: white;
+  padding: 20px
+}
+
+.list {
+  display: inline-block;
+}
+
+.item {
+  display: inline-block;
+  text-align: center;
+  color: #EF476F;
+  margin: 0 100px 30px 100px;
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #06D6A0;
+  padding: 20px;
+  text-align: right;
+}
+
+.home {
+  display: inline-block;
+  text-align: center;
+}
+
+.h_products {
+  padding-top: 45px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-size: 23px;
+
+}
+.p_products {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.p_about {
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+/*** IMAGES ***/
+.cat {
+  display: flex;
+  max-width: 100%;
+  float: left;
+  width: 56%;
+  margin-bottom: 5px;
+}
+
+.gallery_1 {
+  display: inline-block;
+  max-wdith: 100%;
+  width: 263px;
+  height: 263px;
+  border: 3px solid black;
+  margin: 0 10px 0 30px;
+}
+
+.gallery_2 {
+  display: inline-block;
+  max-width: 100%;
+  width: 263px;
+  height: 263px;
+  border: 3px solid black;
+  margin: 0 10px;
+}
+
+.gallery_3 {
+  display: inline-block;
+  max-width: 100%;
+  width: 263px;
+  height: 263px;
+  border: 3px solid black;
+  margin: 0 10px;
+}
+
+.gallery_4 {
+  display: inline-block;
+  max-width: 100%;
+  width: 263px;
+  height: 263px;
+  border: 3px solid black;
+  margin: 10px 0 0 30px;
+  margin-bottom: 35px;
+}
+
+.gallery_5 {
+  display: inline-block;
+  max-width: 100%;
+  width: 263px;
+  height: 263px;
+  border: 3px solid black;
+  margin: 20px ;
+  margin-bottom: 35px;
+}
